@@ -25,5 +25,6 @@ public class Text {
         Student student = (Student)ioc.get("student");
         System.out.println(student.getName());
         System.out.println(student.getName());
+        System.out.println(student.getName());
     }
 }
