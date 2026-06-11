@@ -24,7 +24,5 @@ public class Text {
         System.out.println("name:"+proxy.getName());
         Student student = (Student)ioc.get("student");
         System.out.println(student.getName());
-        System.out.println(student.getName());
-        System.out.println(student.getName());
     }
 }
